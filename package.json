@@ -1,0 +1,29 @@
+{
+  "name": "create-ts-app",
+  "version": "1.0.0",
+  "description": "basic ts app",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sblack4/create-ts-app.git"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "npm"
+  ],
+  "author": "Steven Black <genseb7@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sblack4/create-ts-app/issues"
+  },
+  "homepage": "https://github.com/sblack4/create-ts-app#readme",
+  "dependencies": {
+    "ts-loader": "^2.0.3",
+    "typescript": "^2.2.2",
+    "webpack": "^2.3.3"
+  }
+}
