@@ -4,7 +4,9 @@
   "description": "basic ts app",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "install mocha first",
+    "serve": "webpack-dev-server",
+    "webpack": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -22,8 +24,10 @@
   },
   "homepage": "https://github.com/sblack4/create-ts-app#readme",
   "dependencies": {
+    "source-map-loader": "^0.2.1",
     "ts-loader": "^2.0.3",
     "typescript": "^2.2.2",
-    "webpack": "^2.3.3"
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
   }
 }

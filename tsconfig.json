@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "noEmitOnError": true,
+        "declaration": true,
+        "alwaysStrict": true,
+        "diagnostics": true,
+        "removeComments": false,
+        "module": "commonjs",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "target": "es5",
+        "outDir": "dist",
+        "pretty": true,
+        "lib": ["es5", "es6", "es2015", "dom"]
+    },
+    "files": [
+        "src/index.ts"
+    ],
+    "compileOnSave": true
+}
